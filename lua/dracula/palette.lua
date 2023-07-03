@@ -9,6 +9,7 @@ return {
    yellow = "#F1FA8C",
    green = "#50fa7b",
    green1 = "#58EFC6",
+   blueGreen = "#07D0C6",
    purple = "#BD93F9",
    cyan = "#8BE9FD",
    pink = "#FF79C6",
