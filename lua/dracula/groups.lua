@@ -301,7 +301,8 @@ local function setup(configs)
       GitSignsCurrentLineBlame = { fg = colors.white, },
 
       -- Telescope
-      TelescopePromptBorder = { fg = colors.comment, },
+      -- TelescopePromptBorder = { fg = colors.comment, },
+      TelescopePromptBorder = { fg = colors.bg, },
       TelescopeResultsBorder = { fg = colors.comment, },
       TelescopePreviewBorder = { fg = colors.comment, },
       TelescopeSelection = { fg = colors.white, bg = colors.selection, },
