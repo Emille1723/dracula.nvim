@@ -314,10 +314,10 @@ local function setup(configs)
       -- TelescopeNormal = { fg = colors.fg, bg = colors.charcoal, },
       TelescopeNormal = { fg = colors.fg, bg = colors.bg, },
       TelescopeMatching = { fg = colors.green, },
-      TelescopePromptPrefix = { fg = colors.purple, },
       TelescopePromptTitle = { fg = colors.yellow },
       TelescopePreviewTitle = { fg = colors.yellow },
       TelescopeSelectionCaret = { fg = colors.green },
+      TelescopePromptPrefix = { fg = colors.white, },
       TelescopePromptNormal = { fg = colors.purple },
       -- TelescopePromptPrefix
 
