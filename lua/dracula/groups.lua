@@ -302,11 +302,11 @@ local function setup(configs)
 
       -- Telescope
       -- TelescopePromptBorder = { fg = colors.comment, },
-      TelescopePromptBorder = { fg = colors.green, },
+      TelescopePromptBorder = { fg = colors.bg, },
       -- TelescopeResultsBorder = { fg = colors.comment, },
-      TelescopeResultsBorder = { fg = colors.green, },
+      TelescopeResultsBorder = { fg = colors.bg, },
       -- TelescopePreviewBorder = { fg = colors.comment, },
-      TelescopePreviewBorder = { fg = colors.green, },
+      TelescopePreviewBorder = { fg = colors.bg, },
       TelescopeSelection = { fg = colors.white, bg = colors.selection, },
       TelescopeMultiSelection = { fg = colors.purple, bg = colors.selection, },
       -- TelescopeNormal = { fg = colors.fg, bg = colors.bg, },
