@@ -314,7 +314,7 @@ local function setup(configs)
       TelescopeNormal = { fg = colors.fg, bg = colors.bg, },
       TelescopeMatching = { fg = colors.green, },
       TelescopePromptPrefix = { fg = colors.purple, },
-      TelescopePromptTitle = { fg = colors.yellow ),
+      TelescopePromptTitle = { fg = colors.yellow },
       -- TelescopePromptPrefix
 
       -- NvimTree
