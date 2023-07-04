@@ -306,6 +306,7 @@ local function setup(configs)
       -- TelescopeResultsBorder = { fg = colors.comment, },
       TelescopeResultsBorder = { fg = colors.bg, },
       -- TelescopePreviewBorder = { fg = colors.comment, },
+      TelescopeResultsTitle = { fg = colors.yellow },
       TelescopePreviewBorder = { fg = colors.bg, },
       TelescopeSelection = { fg = colors.white, bg = colors.selection, },
       TelescopeMultiSelection = { fg = colors.purple, bg = colors.selection, },
