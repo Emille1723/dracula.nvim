@@ -313,13 +313,13 @@ local function setup(configs)
       -- TelescopeNormal = { fg = colors.fg, bg = colors.bg, },
       -- TelescopeNormal = { fg = colors.fg, bg = colors.charcoal, },
       TelescopeNormal = { fg = colors.fg, bg = colors.bg, },
-      TelescopeMatching = { fg = colors.purple, },
+      TelescopeMatching = { fg = colors.green, },
       TelescopePromptTitle = { fg = colors.pink },
       TelescopePreviewTitle = { fg = colors.pink },
       -- TelescopeSelectionCaret = { fg = colors.green },
       TelescopeSelectionCaret = { fg = colors.green },
-      TelescopePromptNormal = { fg = colors.purple },
-      TelescopePromptPrefix = { fg = colors.purple, },
+      TelescopePromptNormal = { fg = colors.green },
+      TelescopePromptPrefix = { fg = colors.green, },
 
       -- NvimTree
       -- NvimTreeNormal = { fg = colors.fg, bg = colors.menu, },
