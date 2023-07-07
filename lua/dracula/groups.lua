@@ -317,9 +317,9 @@ local function setup(configs)
       TelescopePromptTitle = { fg = colors.pink },
       TelescopePreviewTitle = { fg = colors.pink },
       -- TelescopeSelectionCaret = { fg = colors.green },
-      TelescopeSelectionCaret = { fg = colors.green },
+      TelescopeSelectionCaret = { fg = colors.purple },
       TelescopePromptNormal = { fg = colors.green },
-      TelescopePromptPrefix = { fg = colors.green, },
+      TelescopePromptPrefix = { fg = colors.purple, },
 
       -- NvimTree
       -- NvimTreeNormal = { fg = colors.fg, bg = colors.menu, },
