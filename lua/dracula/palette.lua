@@ -3,7 +3,7 @@ return {
    bg = "#282A36",
    fg = "#F8F8F2",
    selection = "#44475A",
-   colorColumn = "#ffffff",
+   colorColumn = "#44475A",
    comment = "#6272A4",
    red = "#FF5555",
    orange = "#FFB86C",
