@@ -320,6 +320,9 @@ local function setup(configs)
       TelescopeSelectionCaret = { fg = colors.purple },
       TelescopePromptNormal = { fg = colors.green },
       TelescopePromptPrefix = { fg = colors.green, },
+      TelescopeResultsDiffDelete = { fg = colors.red },
+      TelescopeResultsDiffChange = { fg = colors.cyan },
+      TelescopeResultsDiffAdd = { fg = colors.green },
 
       -- NvimTree
       -- NvimTreeNormal = { fg = colors.fg, bg = colors.menu, },
