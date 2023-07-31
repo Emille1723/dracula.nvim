@@ -47,7 +47,7 @@ local function setup(configs)
       Float = { fg = colors.orange, },
       FloatBorder = { fg = colors.bg, },
       -- FloatBorder = { fg = colors.green1, },
-      -- FloatBorder = { fg = colors.green1, },
+      -- FloatBorder = { fg = colors.white, },
       -- Operator = { fg = colors.purple, },
       Operator = { fg = colors.pink, },
       Keyword = { fg = colors.cyan, },
