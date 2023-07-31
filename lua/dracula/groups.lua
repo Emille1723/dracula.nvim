@@ -45,7 +45,7 @@ local function setup(configs)
       -- Boolean = { fg = colors.cyan, },
       Boolean = { fg = colors.purple, },
       Float = { fg = colors.orange, },
-      FloatBorder = { fg = colors.white, },
+      FloatBorder = { fg = colors.green1, },
       -- Operator = { fg = colors.purple, },
       Operator = { fg = colors.pink, },
       Keyword = { fg = colors.cyan, },
