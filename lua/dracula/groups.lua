@@ -84,7 +84,7 @@ local function setup(configs)
       Conceal = { fg = colors.comment, },
       CursorColumn = { bg = colors.black, },
       CursorLine = { bg = colors.selection, },
-      ColorColumn = { bg = colors.bg, },
+      ColorColumn = { bg = "#191C24" },
 
       StatusLine = { fg = colors.white, bg = colors.black, },
       StatusLineNC = { fg = colors.comment, },
