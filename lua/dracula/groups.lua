@@ -77,7 +77,8 @@ local function setup(configs)
       Underlined = { fg = colors.cyan, underline = true, },
 
       Cursor = { reverse = true, },
-      CursorLineNr = { fg = colors.fg, bold = true, },
+      -- CursorLineNr = { fg = colors.fg, bold = true, },
+      CursorLineNr = { fg = colors.blue, bold = true, },
 
       SignColumn = { bg = colors.bg, },
 
@@ -104,7 +105,8 @@ local function setup(configs)
       Search = { fg = colors.black, bg = colors.orange, },
       IncSearch = { fg = colors.orange, bg = colors.comment, },
       -- LineNr = { fg = colors.comment, },
-      LineNr = { fg = "#959595", }, 
+      -- LineNr = { fg = "#959595", },
+      LineNr = { fg = colors.steel_blue, },      
       MatchParen = { fg = colors.fg, underline = true, },
       NonText = { fg = colors.nontext, },
       Pmenu = { fg = colors.white, bg = colors.menu, },
