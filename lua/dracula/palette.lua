@@ -38,5 +38,11 @@ return {
    purple1 = "#ae81ff",
    watermelon = "#ff5874",
    orchid = "#e39aa6",
-   emerald = "#21c7a8"
+   emerald = "#21c7a8",
+   neonGreen = "#11FD96",
+   neonGreen1 = "#76FF97",
+   neonGreen2 = "#C4FECD",
+   neonBlue = "#5151FB",
+   neonTurquoise = "#18FDFC",
+   neonTurquoise1 = "#0CF1C9"
 }
