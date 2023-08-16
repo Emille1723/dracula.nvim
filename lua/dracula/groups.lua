@@ -107,7 +107,7 @@ local function setup(configs)
       -- LineNr = { fg = colors.comment, },
       -- LineNr = { fg = "#959595", },
       -- LineNr = { fg = colors.blue, },
-      LineNr = { fg = colors.yellow, },
+      LineNr = { fg = "#898989", },
       MatchParen = { fg = colors.fg, underline = true, },
       NonText = { fg = colors.nontext, },
       Pmenu = { fg = colors.white, bg = colors.menu, },
