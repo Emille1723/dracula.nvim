@@ -30,5 +30,13 @@ return {
    white = "#ABB2BF",
    black = "#191A21",
    blue = "#82aaff",
-   steel_blue = "#4b6479"
+   steel_blue = "#4b6479",
+   ash_blue = "#acb4c2",
+   gray_blue = "#7c8f8f",
+   malibu = "#87bcff",
+   turquoise = "#7fdbca",
+   purple1 = "#ae81ff",
+   watermelon = "#ff5874",
+   orchid = "#e39aa6",
+   emerald = "#21c7a8"
 }
