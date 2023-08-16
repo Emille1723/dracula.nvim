@@ -44,5 +44,6 @@ return {
    neonGreen2 = "#C4FECD",
    neonBlue = "#5151FB",
    neonTurquoise = "#18FDFC",
-   neonTurquoise1 = "#0CF1C9"
+   neonTurquoise1 = "#0CF1C9",
+   darkBlue = "#092236"
 }
