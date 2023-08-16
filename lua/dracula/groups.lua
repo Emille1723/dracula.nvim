@@ -86,7 +86,7 @@ local function setup(configs)
       CursorColumn = { bg = colors.black, },
       -- CursorLine = { bg = colors.selection, },
       -- CursorLine = { bg = "#191C24", },
-      CursorLine = { bg = "#292e42" },
+      CursorLine = { bg = "#3E4F5D" },
       ColorColumn = { bg = "#191C24" },
 
       StatusLine = { fg = colors.white, bg = colors.black, },
