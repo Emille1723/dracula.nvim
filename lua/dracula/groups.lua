@@ -360,7 +360,8 @@ local function setup(configs)
       NeoTreeDotfile = { fg = colors.comment },
 
       -- Bufferline
-      BufferLineIndicatorSelected = { fg = colors.green, },
+      -- BufferLineIndicatorSelected = { fg = colors.green, },
+      BufferLineIndicatorSelected = { fg = "#82aaff", },
       BufferLineFill = { bg = colors.black, },
       BufferLineBufferSelected = { bg = colors.bg, },
 
