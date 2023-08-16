@@ -106,7 +106,7 @@ local function setup(configs)
       IncSearch = { fg = colors.orange, bg = colors.comment, },
       -- LineNr = { fg = colors.comment, },
       -- LineNr = { fg = "#959595", },
-      LineNr = { fg = colors.blue, },
+      LineNr = { fg = colors.steel_blue, },
       -- LineNr = { fg = "#898989", },
       MatchParen = { fg = colors.fg, underline = true, },
       NonText = { fg = colors.nontext, },
