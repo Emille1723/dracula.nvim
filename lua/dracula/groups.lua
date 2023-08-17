@@ -205,7 +205,8 @@ local function setup(configs)
       ['@tag'] = { fg = colors.pink, },
       ['@tag.attribute'] = { fg = colors.green, },
       -- ['@tag.attribute'] = { fg = colors.pink, },
-      ['@tag.delimiter'] = { fg = colors.cyan, },
+      -- ['@tag.delimiter'] = { fg = colors.cyan, },
+      ['@tag.delimiter'] = { fg = colors.pink, },
 
         -- Semantic 
       ['@class'] = { fg = colors.cyan },
@@ -244,8 +245,8 @@ local function setup(configs)
       -- HTML
       htmlArg = { fg = colors.green, },
       htmlBold = { fg = colors.yellow, bold = true, },
-      htmlEndTag = { fg = colors.cyan, },
-      -- htmlEndTag = { fg = colors.pink, },
+      -- htmlEndTag = { fg = colors.cyan, },
+      htmlEndTag = { fg = colors.pink, },
       htmlH1 = { fg = colors.pink, },
       htmlH2 = { fg = colors.pink, },
       htmlH3 = { fg = colors.pink, },
@@ -256,14 +257,14 @@ local function setup(configs)
       htmlLink = { fg = colors.purple, underline = true, },
       htmlSpecialChar = { fg = colors.yellow, },
       htmlSpecialTagName = { fg = colors.cyan, },
-      htmlTag = { fg = colors.cyan, },
-      -- htmlTag = { fg = colors.pink, },
-      htmlTagN = { fg = colors.cyan, },
-      -- htmlTagN = { fg = colors.pink, },
+      -- htmlTag = { fg = colors.cyan, },
+      htmlTag = { fg = colors.pink, },
+      -- htmlTagN = { fg = colors.cyan, },
+      htmlTagN = { fg = colors.pink, },
       -- htmlTagName = { fg = colors.cyan, },
       htmlTagName = { fg = colors.pink, },
-      -- htmlTitle = { fg = colors.white, },
-      htmlTitle = { fg = colors.pink, },
+      htmlTitle = { fg = colors.white, },
+      -- htmlTitle = { fg = colors.pink, },
 
       -- Markdown
       markdownBlockquote = { fg = colors.yellow, italic = true, },
