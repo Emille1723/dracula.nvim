@@ -173,7 +173,8 @@ local function setup(configs)
 
       ['@conditional'] = { fg = colors.pink, },
       ['@repeat'] = { fg = colors.pink, },
-      ['@label'] = { fg = colors.cyan, },
+      -- ['@label'] = { fg = colors.cyan, },
+      ['@label'] = { fg = colors.pink, },
 
       ['@keyword'] = { fg = colors.pink, },
       ['@keyword.function'] = { fg = colors.cyan, },
@@ -205,8 +206,8 @@ local function setup(configs)
       ['@tag'] = { fg = colors.pink, },
       ['@tag.attribute'] = { fg = colors.green, },
       -- ['@tag.attribute'] = { fg = colors.pink, },
-      -- ['@tag.delimiter'] = { fg = colors.cyan, },
-      ['@tag.delimiter'] = { fg = colors.pink, },
+      ['@tag.delimiter'] = { fg = colors.cyan, },
+      -- ['@tag.delimiter'] = { fg = colors.pink, },
 
         -- Semantic 
       ['@class'] = { fg = colors.cyan },
