@@ -201,8 +201,8 @@ local function setup(configs)
       ['@text.uri'] = { fg = colors.yellow, italic = true, }, -- urls
       ['@text.reference'] = { fg = colors.orange, bold = true, },
 
-      ['@tag'] = { fg = colors.cyan, },
-      -- ['@tag'] = { fg = colors.pink, },
+      -- ['@tag'] = { fg = colors.cyan, },
+      ['@tag'] = { fg = colors.pink, },
       ['@tag.attribute'] = { fg = colors.green, },
       -- ['@tag.attribute'] = { fg = colors.pink, },
       ['@tag.delimiter'] = { fg = colors.cyan, },
