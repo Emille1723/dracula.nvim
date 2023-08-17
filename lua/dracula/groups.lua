@@ -203,7 +203,8 @@ local function setup(configs)
 
       -- ['@tag'] = { fg = colors.cyan, },
       ['@tag'] = { fg = colors.pink, },
-      ['TSTag'] = { fg = colors.pink, },
+      ['@TSTag'] = { fg = colors.pink, },
+      '@TSTag' = { fg = colors.pink, },
       ['@tag.attribute'] = { fg = colors.green, },
       -- ['@tag.attribute'] = { fg = colors.pink, },
       ['@tag.delimiter'] = { fg = colors.cyan, },
