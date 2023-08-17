@@ -157,7 +157,7 @@ local function setup(configs)
       ['@boolean'] = { fg = colors.purple, },
       ['@float'] = { fg = colors.green, },
       ['@annotation'] = { fg = colors.yellow, },
-      ['@attribute'] = { fg = colors.pink, },
+      ['@attribute'] = { fg = colors.cyan, },
       ['@namespace'] = { fg = colors.orange, },
 
       -- ['@function.builtin'] = { fg = colors.cyan, },
