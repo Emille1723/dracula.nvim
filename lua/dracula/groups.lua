@@ -173,8 +173,7 @@ local function setup(configs)
 
       ['@conditional'] = { fg = colors.pink, },
       ['@repeat'] = { fg = colors.pink, },
-      -- ['@label'] = { fg = colors.cyan, },
-      ['@label'] = { fg = colors.pink, },
+      ['@label'] = { fg = colors.cyan, },
 
       ['@keyword'] = { fg = colors.pink, },
       ['@keyword.function'] = { fg = colors.cyan, },
