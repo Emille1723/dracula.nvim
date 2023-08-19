@@ -362,7 +362,8 @@ local function setup(configs)
 
       -- Bufferline
       -- BufferLineIndicatorSelected = { fg = colors.green, },
-      BufferLineIndicatorSelected = { fg = colors.neonGreen, },
+      -- BufferLineIndicatorSelected = { fg = colors.neonGreen, },
+      BufferLineIndicatorSelected = { fg = colors.watermelon, },
       BufferLineFill = { bg = colors.black, },
       BufferLineBufferSelected = { bg = colors.bg, },
 
