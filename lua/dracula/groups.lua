@@ -77,8 +77,8 @@ local function setup(configs)
       Underlined = { fg = colors.cyan, underline = true, },
 
       Cursor = { reverse = true, },
-      CursorLineNr = { fg = colors.fg, bold = true, },
-      -- CursorLineNr = { fg = colors.blue, bold = true, },
+      -- CursorLineNr = { fg = colors.fg, bold = true, },
+      CursorLineNr = { fg = colors.blue, bold = true, },
 
       SignColumn = { bg = colors.bg, },
 
