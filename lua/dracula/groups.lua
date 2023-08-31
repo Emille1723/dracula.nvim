@@ -77,8 +77,7 @@ local function setup(configs)
       Underlined = { fg = colors.cyan, underline = true, },
 
       Cursor = { reverse = true, },
-      -- CursorLineNr = { fg = colors.fg, bold = true, },
-      CursorLineNr = { fg = "#A5B6CF", bold = true, },
+      CursorLineNr = { fg = colors.fg, bold = true, },
       -- CursorLineNr = { fg = colors.fg, bold = true, },
       -- CursorLineNr = { fg = colors.blue, bold = true, },
       -- CursorLineNr = { fg = "#7FBCB1", bold = true, },
@@ -113,7 +112,8 @@ local function setup(configs)
       -- LineNr = { fg = "#9f9f9f", },
       -- LineNr = { fg = "#aaaaaa", },
       -- LineNr = { fg = "#b4b4b4", },
-      LineNr = { fg = "#a1a1a1", },
+      -- LineNr = { fg = "#a1a1a1", }, -- current default
+      LineNr = { fg = "#A5B6CF", bold = true, },
       -- LineNr = { fg = "#959595", },
       -- LineNr = { fg = colors.blue, },
       -- LineNr = { fg = "#898989", },
