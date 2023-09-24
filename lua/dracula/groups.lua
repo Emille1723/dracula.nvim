@@ -346,12 +346,12 @@ local function setup(configs)
       NvimTreeGitDirty = { fg = "#AB76ED", }, -- purple
       -- NvimTreeGitDirty = { fg = "#F78C6C", }, -- orange
       -- NvimTreeGitNew = { fg = colors.bright_green, },
-      -- NvimTreeGitNew = { fg = "#FFCB8B" }, -- nightfly dark_yellow
-      NvimTreeGitNew = { fg = "#54FF08" }, -- bright green
+      NvimTreeGitNew = { fg = "#FFCB8B" }, -- nightfly dark_yellow
+      -- NvimTreeGitNew = { fg = "#54FF08" }, -- bright green
       NvimTreeImageFile = { fg = colors.pink, },
       -- NvimTreeFolderIcon = { fg = colors.purple, },
-      -- NvimTreeFolderIcon = { fg = "#42A5F5", }, -- my default
-      NvimTreeFolderIcon = { fg = "#77D3FE", },
+      -- NvimTreeFolderIcon = { fg = "#42A5F5", },
+      NvimTreeFolderIcon = { fg = "#77D3FE", }, -- my default
       NvimTreeIndentMarker = { fg = colors.nontext, },
       NvimTreeEmptyFolderName = { fg = colors.comment, },
       NvimTreeFolderName = { fg = colors.fg, },
