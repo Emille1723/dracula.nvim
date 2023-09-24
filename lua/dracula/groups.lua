@@ -170,7 +170,7 @@ local function setup(configs)
       -- ['@function.builtin'] = { fg = colors.cyan, },
       ['@function.builtin'] = { fg = colors.green, },
       ['@function'] = { fg = colors.green, },
-      ['@function.call'] = { fg = colors.green, }, -- my new addition
+      -- ['@function.call'] = { fg = colors.green, }, -- my new addition
       ['@function.macro'] = { fg = colors.green, },
       ['@parameter'] = { fg = colors.orange, },
       ['@parameter.reference'] = { fg = colors.orange, },
