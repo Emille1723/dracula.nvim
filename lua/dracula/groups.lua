@@ -170,6 +170,7 @@ local function setup(configs)
       -- ['@function.builtin'] = { fg = colors.cyan, },
       ['@function.builtin'] = { fg = colors.green, },
       ['@function'] = { fg = colors.green, },
+      ['@function.call'] = { fg = colors.green, }, -- my new addition
       ['@function.macro'] = { fg = colors.green, },
       ['@parameter'] = { fg = colors.orange, },
       ['@parameter.reference'] = { fg = colors.orange, },
@@ -208,8 +209,8 @@ local function setup(configs)
       ['@text.uri'] = { fg = colors.yellow, italic = true, }, -- urls
       ['@text.reference'] = { fg = colors.orange, bold = true, },
 
-      ['@tag'] = { fg = colors.cyan, },
-      -- ['@tag'] = { fg = colors.pink, },
+      -- ['@tag'] = { fg = colors.cyan, },
+      ['@tag'] = { fg = colors.pink, },
       ['@tag.attribute'] = { fg = colors.green, },
       ['@tag.delimiter'] = { fg = colors.cyan, },
 
