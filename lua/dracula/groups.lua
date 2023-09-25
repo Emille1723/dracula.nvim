@@ -112,8 +112,8 @@ local function setup(configs)
       -- LineNr = { fg = "#9f9f9f", },
       -- LineNr = { fg = "#aaaaaa", },
       -- LineNr = { fg = "#b4b4b4", },
-      -- LineNr = { fg = "#a1a1a1", bold = true }, -- current default
-      LineNr = { fg = "#A5B6CF", bold = true, },
+      -- LineNr = { fg = "#a1a1a1", bold = true },
+      LineNr = { fg = "#A5B6CF", bold = true, }, -- current default
       -- LineNr = { fg = "#959595", },
       -- LineNr = { fg = colors.blue, },
       -- LineNr = { fg = "#898989", },
@@ -329,7 +329,8 @@ local function setup(configs)
       TelescopePromptTitle = { fg = colors.pink },
       TelescopePreviewTitle = { fg = colors.pink },
       -- TelescopeSelectionCaret = { fg = colors.green },
-      TelescopeSelectionCaret = { fg = colors.purple },
+      -- TelescopeSelectionCaret = { fg = colors.purple },
+      TelescopeSelectionCaret = { fg = "#FFCB8B" }, -- nightfly briight_yellow -- my default
       TelescopePromptNormal = { fg = colors.green },
       TelescopePromptPrefix = { fg = colors.green, },
       TelescopeResultsDiffDelete = { fg = colors.red },
@@ -345,7 +346,7 @@ local function setup(configs)
       -- NvimTreeGitDirty = { fg = colors.red, },
       -- NvimTreeGitDirty = { fg = "#E9BB82", }, -- light yellow
       -- NvimTreeGitDirty = { fg = "#AB76ED", }, -- purple
-      NvimTreeGitDirty = { fg = "#F78C6C", }, -- orange -- default
+      NvimTreeGitDirty = { fg = "#F78C6C", }, -- orange -- my default
       -- NvimTreeGitNew = { fg = colors.bright_green, },
       NvimTreeGitNew = { fg = "#FFCB8B" }, -- nightfly dark_yellow
       -- NvimTreeGitNew = { fg = "#54FF08" }, -- bright green
