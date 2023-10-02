@@ -2,6 +2,7 @@
 return {
    bg = "#282A36",
    fg = "#F8F8F2",
+   cursor = "#3E4F5D",
    selection = "#44475A",
    -- colorColumn = "#44475A",
    -- colorColumn = "#1FC5F9",
