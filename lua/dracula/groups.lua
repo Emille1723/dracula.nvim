@@ -88,7 +88,7 @@ local function setup(configs)
       CursorColumn = { bg = colors.black, },
       -- CursorLine = { bg = colors.selection, },
       -- CursorLine = { bg = "#191C24", },
-      CursorLine = { bg = "#3E4F5D" },
+      CursorLine = { bg = colors.cursor },
       ColorColumn = { bg = "#191C24" },
 
       StatusLine = { fg = colors.white, bg = colors.black, },
@@ -320,7 +320,8 @@ local function setup(configs)
       -- TelescopePreviewBorder = { fg = colors.comment, },
       TelescopeResultsTitle = { fg = colors.pink },
       TelescopePreviewBorder = { fg = colors.bg, },
-      TelescopeSelection = { fg = colors.white, bg = colors.selection, },
+      TelescopeSelection = { fg = colors.white, bg = colors.cursor, },
+      -- TelescopeSelection = { fg = colors.white, bg = colors.selection, },
       -- TelescopeSelection = { fg = colors.white, bg = "" },
       TelescopeMultiSelection = { fg = colors.purple, bg = colors.selection, },
       -- TelescopeNormal = { fg = colors.fg, bg = colors.bg, },
