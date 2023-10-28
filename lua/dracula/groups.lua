@@ -332,7 +332,7 @@ local function setup(configs)
       TelescopePreviewTitle = { fg = colors.pink },
       -- TelescopeSelectionCaret = { fg = colors.green },
       -- TelescopeSelectionCaret = { fg = colors.purple },
-      TelescopeSelectionCaret = { fg = "#FFCB8B" }, -- nightfly briight_yellow -- my default
+      TelescopeSelectionCaret = { fg = "#FFCB8B", bg = "#FFCB8B" }, -- nightfly briight_yellow -- my default
       TelescopePromptNormal = { fg = colors.green },
       TelescopePromptPrefix = { fg = colors.green, },
       TelescopeResultsDiffDelete = { fg = colors.red },
