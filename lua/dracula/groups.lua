@@ -336,7 +336,7 @@ local function setup(configs)
       -- TelescopeSelectionCaret = { fg = "#FFCB8B", }, -- nightfly briight_yellow -- my default
       -- TelescopeSelectionCaret = { fg = "#191C24", bg = "#FFCB8B" }, -- nightfly bright_yellow -- my default with mods
       -- TelescopeSelectionCaret = { fg = "#191C24", bg = "#82AAFF" }, -- nightfly blue -- my default with more mods
-      TelescopeSelectionCaret = { fg = "#B5E8E0", bg = "#82AAFF" },
+      TelescopeSelectionCaret = { fg = "#191C24", bg = "#B5E8E0" },
       TelescopePromptNormal = { fg = colors.green },
       TelescopePromptPrefix = { fg = colors.green, },
       TelescopeResultsDiffDelete = { fg = colors.red },
