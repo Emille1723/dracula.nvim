@@ -331,6 +331,7 @@ local function setup(configs)
       TelescopeMatching = { fg = colors.green, },
       TelescopePromptTitle = { fg = colors.pink },
       TelescopePreviewTitle = { fg = colors.pink },
+      TelescopePreviewNormal = { bg = colors.bg },
       -- TelescopeSelectionCaret = { fg = colors.green },
       -- TelescopeSelectionCaret = { fg = colors.purple },
       -- TelescopeSelectionCaret = { fg = "#FFCB8B", }, -- nightfly briight_yellow -- my default
@@ -341,9 +342,28 @@ local function setup(configs)
       -- TelescopeSelectionCaret = { fg = "#191C24", bg = "#B5E8E0" },
       TelescopePromptNormal = { fg = colors.green },
       TelescopePromptPrefix = { fg = colors.green, },
+      TelescopeResultsNormal = { bg = colors.bg },
       TelescopeResultsDiffDelete = { fg = colors.red },
       TelescopeResultsDiffChange = { fg = colors.cyan },
       TelescopeResultsDiffAdd = { fg = colors.green },
+
+      -- to ref if have any more colors to update
+      -- TelescopeMatching = { fg = ss.diagnostics.hint },
+      -- TelescopeSelection = { fg = ss.diagnostics.hint, bg = ss.bg.cursorline },
+
+      -- TelescopePromptTitle = { fg = ss.bg.floating, bg = ss.syntax.keyword, bold = true },
+      -- TelescopePromptPrefix = { fg = ss.diagnostics.hint },
+      -- TelescopePromptCounter = { fg = ss.diagnostics.hint },
+      -- TelescopePromptNormal = { bg = ss.bg.cursorline },
+      -- TelescopePromptBorder = { fg = ss.bg.cursorline, bg = ss.bg.cursorline },
+
+      -- TelescopeResultsTitle = { fg = ss.bg.floating, bg = ss.bg.floating, bold = true },
+      -- TelescopeResultsNormal = { bg = ss.bg.floating },
+      -- TelescopeResultsBorder = { fg = ss.bg.floating, bg = ss.bg.floating },
+
+      -- TelescopePreviewTitle = { fg = ss.bg.floating, bg = ss.syntax.string, bold = true },
+      -- TelescopePreviewNormal = { bg = ss.bg.floating },
+      -- TelescopePreviewBorder = { fg = ss.bg.floating, bg = ss.bg.floating },
 
       -- NvimTree
       -- NvimTreeNormal = { fg = colors.fg, bg = colors.menu, },
