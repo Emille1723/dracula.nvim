@@ -409,7 +409,7 @@ local function setup(configs)
       BufferLineIndicatorSelected = { fg = colors.neonTurquoise, },
       -- BufferLineFill = { bg = colors.black, },
       BufferLineFill = { bg = colors.bg, },
-      BufferLineBufferSelected = { bg = colors.bg, },
+      -- BufferLineBufferSelected = { bg = colors.bg, },
 
       -- LSP
       DiagnosticError = { fg = colors.red, },
