@@ -407,7 +407,8 @@ local function setup(configs)
       -- BufferLineIndicatorSelected = { fg = colors.green, },
       -- BufferLineIndicatorSelected = { fg = colors.neonGreen, },
       BufferLineIndicatorSelected = { fg = colors.neonTurquoise, },
-      BufferLineFill = { bg = colors.black, },
+      -- BufferLineFill = { bg = colors.black, },
+      BufferLineFill = { bg = colors.bg, },
       BufferLineBufferSelected = { bg = colors.bg, },
 
       -- LSP
