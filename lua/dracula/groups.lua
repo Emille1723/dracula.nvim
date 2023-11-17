@@ -78,7 +78,7 @@ local function setup(configs)
 
       Cursor = { reverse = true, },
       -- CursorLineNr = { fg = colors.fg, bold = true, }, my default
-      CursorLineNr = { fg = "#FFCB8B", bold = true, bg = "#062235" }, -- testing with status col
+      CursorLineNr = { fg = colors.fg, bold = true, bg = "#062235" }, -- testing with status col
       -- CursorLineNr = { fg = colors.fg, bold = true, },
       -- CursorLineNr = { fg = colors.blue, bold = true, },
       -- CursorLineNr = { fg = "#7FBCB1", bold = true, },
