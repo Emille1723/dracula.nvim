@@ -322,7 +322,7 @@ local function setup(configs)
       TelescopeResultsTitle = { fg = colors.pink },
       TelescopePreviewBorder = { fg = colors.bg, },
       -- TelescopeSelection = { fg = "#ffffff", bg = colors.cursor, }, --my default
-      TelescopeSelection = { bg = colors.cursor, }, -- my new default
+      TelescopeSelection = { bg = colors.cursor, fg = colors.fg }, -- my new default
       -- TelescopeSelection = { fg = colors.white, bg = colors.selection, },
       -- TelescopeSelection = { fg = colors.white, bg = "" },
       TelescopeMultiSelection = { fg = colors.purple, bg = colors.selection, },
