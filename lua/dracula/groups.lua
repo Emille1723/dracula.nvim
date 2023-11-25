@@ -347,7 +347,8 @@ local function setup(configs)
       -- TelescopeSelectionCaret = { fg = "#191C24", bg = "#B5E8E0" },
       TelescopePromptNormal = { fg = colors.green },
       TelescopePromptPrefix = { fg = colors.green, },
-      TelescopeResultsNormal = { bg = colors.bg, fg = "#adada9" },
+      -- TelescopeResultsNormal = { bg = colors.bg, fg = "#adada9" }, -- light white
+      TelescopeResultsNormal = { bg = colors.bg, fg = "#c6c6c1" },
       TelescopeResultsDiffDelete = { fg = colors.red },
       TelescopeResultsDiffChange = { fg = colors.cyan },
       TelescopeResultsDiffAdd = { fg = colors.green },
