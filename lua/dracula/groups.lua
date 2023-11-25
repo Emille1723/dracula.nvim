@@ -342,7 +342,7 @@ local function setup(configs)
       -- TelescopeSelectionCaret = { fg = "#000000", bg = colors.bright_yellow }, 
       -- TelescopeSelectionCaret = { fg = colors.cursor, bg = colors.bright_yellow }, -- my current default
       -- TelescopeSelectionCaret = { fg = colors.cursor, bg = "#5E97EC" }, 
-      TelescopeSelectionCaret = { fg = "#FFCB8B", bg = "#5E97EC" }, 
+      TelescopeSelectionCaret = { fg = colors.cursor, bg = "#08FF83" }, 
       -- TelescopeSelectionCaret = { fg = "#191C24", bg = "#B5E8E0" },
       TelescopePromptNormal = { fg = colors.green },
       TelescopePromptPrefix = { fg = colors.green, },
