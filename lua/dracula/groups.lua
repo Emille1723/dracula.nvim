@@ -344,7 +344,8 @@ local function setup(configs)
       -- TelescopeSelectionCaret = { fg = colors.cursor, bg = "#5E97EC" }, 
       -- TelescopeSelectionCaret = { fg = colors.cursor, bg = "#08FF83" }, --spring green bg
       -- TelescopeSelectionCaret = { fg = colors.cursor, bg = "#DFBD9A" }, -- yellowish gold
-      TelescopeSelectionCaret = { fg = colors.cursor, bg = "#7fdbca" }, -- bright cyan
+      -- TelescopeSelectionCaret = { fg = colors.cursor, bg = "#7fdbca" }, -- bright cyan
+      TelescopeSelectionCaret = { fg = colors.cursor, bg = "#ae81ff" }, -- bright purple
       -- TelescopeSelectionCaret = { fg = "#191C24", bg = "#B5E8E0" },
       TelescopePromptNormal = { fg = colors.green },
       TelescopePromptPrefix = { fg = colors.green, },
