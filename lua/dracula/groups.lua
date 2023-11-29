@@ -114,7 +114,7 @@ local function setup(configs)
       -- LineNr = { fg = "#aaaaaa", },
       -- LineNr = { fg = "#b4b4b4", },
       -- LineNr = { fg = "#a1a1a1", bold = true },
-      LineNr = { fg = "#A5B6CF", bold = true, }, -- current default
+      LineNr = { fg = "#A5B6CF", bold = true, bg = colors.bg }, -- current default
       -- LineNr = { fg = "#959595", },
       -- LineNr = { fg = colors.blue, },
       -- LineNr = { fg = "#898989", },
