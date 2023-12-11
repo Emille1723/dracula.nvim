@@ -314,6 +314,7 @@ local function setup(configs)
 
       -- Telescope
       -- TelescopeBorder = { fg = colors.green1, bg = colors.green1 },
+      TelescopeBorder = { fg = colors.green1, bg = colors.bg },
       -- TelescopePromptBorder = { fg = colors.comment, },
       TelescopePromptBorder = { fg = colors.bg, },
       -- TelescopeResultsBorder = { fg = colors.comment, },
