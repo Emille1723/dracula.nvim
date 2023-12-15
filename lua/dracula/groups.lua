@@ -341,7 +341,8 @@ local function setup(configs)
       -- TelescopeSelectionCaret = { fg = "#191C24", bg = "#82AAFF" }, -- nightfly blue -- my default with more mods
       -- TelescopeSelectionCaret = { fg = "#191C24", bg = colors.bright_yellow },
       -- TelescopeSelectionCaret = { fg = "#000000", bg = colors.bright_yellow }, 
-      TelescopeSelectionCaret = { fg = colors.cursor, bg = colors.bright_yellow }, -- my current default
+      -- TelescopeSelectionCaret = { fg = colors.cursor, bg = colors.bright_yellow }, -- my current preferred default
+      TelescopeSelectionCaret = { fg = colors.pink, bg = "none" }, -- my new default to match fzf-lua & fzf pointer
       -- TelescopeSelectionCaret = { fg = colors.cursor, bg = "#5E97EC" }, 
       -- TelescopeSelectionCaret = { fg = colors.cursor, bg = "#08FF83" }, --spring green bg
       -- TelescopeSelectionCaret = { fg = colors.cursor, bg = "#DFBD9A" }, -- yellowish gold
