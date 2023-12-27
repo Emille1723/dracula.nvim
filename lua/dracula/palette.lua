@@ -33,6 +33,7 @@ return {
    white = "#ABB2BF",
    black = "#191A21",
    blue = "#82aaff",
+   blue1 = "#48AEF5",
    steel_blue = "#4b6479",
    ash_blue = "#acb4c2",
    gray_blue = "#7c8f8f",
