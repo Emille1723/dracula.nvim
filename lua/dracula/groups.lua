@@ -428,8 +428,8 @@ local function setup(configs)
       DiagnosticError = { fg = colors.red, },
       DiagnosticWarn = { fg = colors.yellow, },
       -- DiagnosticInfo = { fg = colors.cyan, }, -- theme deafult
-      -- DiagnosticInfo = { fg = colors.green13, }, -- my default
-      DiagnosticInfo = { fg = colors.blue1, },
+      DiagnosticInfo = { fg = colors.green13, }, -- my default
+      -- DiagnosticInfo = { fg = colors.blue1, }, -- experimental
       DiagnosticHint = { fg = colors.cyan, },
       DiagnosticUnderlineError = { undercurl = true, sp = colors.red, },
       DiagnosticUnderlineWarn = { undercurl = true, sp = colors.yellow, },
