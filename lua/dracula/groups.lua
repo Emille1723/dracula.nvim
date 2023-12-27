@@ -429,7 +429,7 @@ local function setup(configs)
       DiagnosticWarn = { fg = colors.yellow, },
       -- DiagnosticInfo = { fg = colors.cyan, }, -- theme deafult
       -- DiagnosticInfo = { fg = colors.green13, }, -- my default
-      DiagnosticInfo = { fg = "#2ac3de", }, -- experimental
+      DiagnosticInfo = { fg = "#21b9d4", }, -- experimental
       DiagnosticHint = { fg = colors.cyan, },
       DiagnosticUnderlineError = { undercurl = true, sp = colors.red, },
       DiagnosticUnderlineWarn = { undercurl = true, sp = colors.yellow, },
@@ -439,19 +439,19 @@ local function setup(configs)
       DiagnosticSignWarn = { fg = colors.yellow, },
       -- DiagnosticSignInfo = { fg = colors.cyan, }, -- theme default
       -- DiagnosticSignInfo = { fg = colors.green13, }, -- my default
-      DiagnosticSignInfo = { fg = "#2ac3de", },
+      DiagnosticSignInfo = { fg = "#21b9d4", },
       DiagnosticSignHint = { fg = colors.cyan, },
       DiagnosticFloatingError = { fg = colors.red, },
       DiagnosticFloatingWarn = { fg = colors.yellow, },
       -- DiagnosticFloatingInfo = { fg = colors.cyan, }, -- theme default
       -- DiagnosticFloatingInfo = { fg = colors.green13, }, -- my default
-      DiagnosticFloatingInfo = { fg = "#2ac3de", },
+      DiagnosticFloatingInfo = { fg = "#21b9d4", },
       DiagnosticFloatingHint = { fg = colors.cyan, },
       DiagnosticVirtualTextError = { fg = colors.red, },
       DiagnosticVirtualTextWarn = { fg = colors.yellow, },
       -- DiagnosticVirtualTextInfo = { fg = colors.cyan, }, -- theme default
       -- DiagnosticVirtualTextInfo = { fg = colors.green13, }, -- my default
-      DiagnosticVirtualTextInfo = { fg = "#2ac3de", },
+      DiagnosticVirtualTextInfo = { fg = "#21b9d4", },
       DiagnosticVirtualTextHint = { fg = colors.cyan, },
       -- with BG
       -- DiagnosticVirtualTextError = { fg = colors.red, bg = "#57100F" },
