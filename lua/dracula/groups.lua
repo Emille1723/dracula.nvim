@@ -444,7 +444,7 @@ local function setup(configs)
       -- DiagnosticFloatingInfo = { fg = colors.cyan, },
       DiagnosticFloatingInfo = { fg = colors.green13, },
       DiagnosticFloatingHint = { fg = colors.cyan, },
-      DiagnosticVirtualTextError = { fg = colors.red, bg = "#B7221E" },
+      DiagnosticVirtualTextError = { fg = colors.red, bg = "#57100F" },
       DiagnosticVirtualTextWarn = { fg = colors.yellow, },
       -- DiagnosticVirtualTextInfo = { fg = colors.cyan, },
       DiagnosticVirtualTextInfo = { fg = colors.green13, },
