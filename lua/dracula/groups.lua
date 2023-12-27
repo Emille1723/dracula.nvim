@@ -305,10 +305,12 @@ local function setup(configs)
 
       -- Git Signs
       GitSignsAdd = { fg = colors.bright_green, },
-      GitSignsChange = { fg = colors.cyan, },
+      -- GitSignsChange = { fg = colors.cyan, }, -- default
+      GitSignsChange = { fg = "#B38600", },
       GitSignsDelete = { fg = colors.bright_red, },
       GitSignsAddLn = { fg = colors.black, bg = colors.bright_green, },
-      GitSignsChangeLn = { fg = colors.black, bg = colors.cyan, },
+      -- GitSignsChangeLn = { fg = colors.black, bg = colors.cyan, }, -- default
+      GitSignsChangeLn = { fg = colors.black, bg = "#B38600", },
       GitSignsDeleteLn = { fg = colors.black, bg = colors.bright_red, },
       GitSignsCurrentLineBlame = { fg = colors.white, },
 
