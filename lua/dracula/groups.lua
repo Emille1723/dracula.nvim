@@ -130,7 +130,7 @@ local function setup(configs)
       SpecialKey = { fg = colors.nontext, },
 
       -- SpellBad = { fg = colors.bright_red, underline = true, }, -- default
-      SpellBad = { fg = colors.bright_red, undercurl = true, },
+      SpellBad = { undercurl = true, },
       SpellCap = { fg = colors.yellow, },
       SpellLocal = { fg = colors.yellow, },
       SpellRare = { fg = colors.yellow, },
