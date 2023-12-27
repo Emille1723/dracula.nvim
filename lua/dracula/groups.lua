@@ -131,9 +131,12 @@ local function setup(configs)
 
       -- SpellBad = { fg = colors.bright_red, underline = true, }, -- default
       SpellBad = { sp = colors.bright_red, undercurl = true, },
-      SpellCap = { fg = colors.yellow, },
-      SpellLocal = { fg = colors.yellow, },
-      SpellRare = { fg = colors.yellow, },
+      -- SpellCap = { fg = colors.yellow, }, -- default
+      SpellCap = { sp = colors.yellow, undercurl = true },
+      -- SpellLocal = { fg = colors.yellow, }, -- default
+      SpellLocal = { sp = colors.yellow, undercurl = true },
+      -- SpellRare = { fg = colors.yellow, }, -- default
+      SpellRare = { sp = colors.yellow, undercurl = true },
 
       TabLine = { fg = colors.comment, },
       TabLineSel = { fg = colors.white, },
