@@ -15,6 +15,7 @@ return {
    green = "#50fa7b",
    green1 = "#58EFC6",
    green13 = "#3eecb4",
+   green14 = "#89E051", -- diagInfo
    blueGreen = "#07D0C6",
    purple = "#BD93F9",
    cyan = "#8BE9FD",
