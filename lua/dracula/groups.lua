@@ -433,7 +433,8 @@ local function setup(configs)
       DiagnosticWarn = { fg = colors.yellow, },
       -- DiagnosticInfo = { fg = colors.cyan, }, -- theme deafult
       -- DiagnosticInfo = { fg = colors.green13, }, -- my default
-      DiagnosticInfo = { fg = "#89E051", }, -- experimental
+      -- DiagnosticInfo = { fg = "#89E051", }, -- my new default
+      DiagnosticInfo = { fg = "#18C874", },
       DiagnosticHint = { fg = colors.cyan, },
       DiagnosticUnderlineError = { undercurl = true, sp = colors.red, },
       DiagnosticUnderlineWarn = { undercurl = true, sp = colors.yellow, },
