@@ -427,8 +427,9 @@ local function setup(configs)
       -- LSP
       DiagnosticError = { fg = colors.red, },
       DiagnosticWarn = { fg = colors.yellow, },
-      -- DiagnosticInfo = { fg = colors.cyan, },
-      DiagnosticInfo = { fg = colors.green13, },
+      -- DiagnosticInfo = { fg = colors.cyan, }, -- theme deafult
+      -- DiagnosticInfo = { fg = colors.green13, }, -- my default
+      DiagnosticInfo = { fg = colors.blue1, },
       DiagnosticHint = { fg = colors.cyan, },
       DiagnosticUnderlineError = { undercurl = true, sp = colors.red, },
       DiagnosticUnderlineWarn = { undercurl = true, sp = colors.yellow, },
