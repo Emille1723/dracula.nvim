@@ -89,7 +89,7 @@ local function setup(configs)
       CursorColumn = { bg = colors.black, },
       -- CursorLine = { bg = colors.selection, },
       -- CursorLine = { bg = "#191C24", },
-      CursorLine = { bg = colors.cursor },
+      CursorLine = { bg = colors.cursor, bold = false },
       ColorColumn = { bg = "#191C24" },
 
       StatusLine = { fg = colors.white, bg = colors.black, },
@@ -392,8 +392,9 @@ local function setup(configs)
       -- NvimTreeGitDirty = { fg = "#E9BB82", }, -- light yellow
       -- NvimTreeGitDirty = { fg = "#AB76ED", }, -- purple
       NvimTreeGitDirty = { fg = "#F78C6C", }, -- orange -- my default
-      -- NvimTreeGitNew = { fg = colors.bright_green, },
-      NvimTreeGitNew = { fg = "#FFCB8B" }, -- nightfly dark_yellow
+      NvimTreeGitNew = { fg = colors.bright_green, },
+      -- NvimTreeGitNew = { fg = "#FFCB8B" }, -- nightfly dark_yellow
+      -- NvimTreeGitNew = { fg = "#69FF94", }, -- git signs green
       -- NvimTreeGitNew = { fg = "#54FF08" }, -- bright green
       NvimTreeImageFile = { fg = colors.pink, },
       -- NvimTreeFolderIcon = { fg = colors.purple, },
