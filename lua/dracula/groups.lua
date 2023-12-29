@@ -392,8 +392,8 @@ local function setup(configs)
       -- NvimTreeGitDirty = { fg = "#E9BB82", }, -- light yellow
       -- NvimTreeGitDirty = { fg = "#AB76ED", }, -- purple
       NvimTreeGitDirty = { fg = "#F78C6C", }, -- orange -- my default
-      NvimTreeGitNew = { fg = colors.bright_green, },
-      -- NvimTreeGitNew = { fg = "#FFCB8B" }, -- nightfly dark_yellow
+      -- NvimTreeGitNew = { fg = colors.bright_green, },
+      NvimTreeGitNew = { fg = "#FFCB8B" }, -- nightfly dark_yellow
       -- NvimTreeGitNew = { fg = "#69FF94", }, -- git signs green
       -- NvimTreeGitNew = { fg = "#54FF08" }, -- bright green
       NvimTreeImageFile = { fg = colors.pink, },
