@@ -283,6 +283,8 @@ local function setup(configs)
       -- markdownH2 = { fg = colors.pink, bold = true, },
       markdownH2 = { fg = colors.emerald, bold = true, },
       ["@text.title.2.markdown"] = { fg = colors.emerald },
+      ["@text.title.2.marker.markdown"] = { fg = colors.emerald },
+      ["@text.title.2.vimdoc"] = { fg = colors.emerald },
       -- markdownH3 = { fg = colors.pink, bold = true, },
       markdownH3 = { fg = colors.orchid, bold = true, },
       -- markdownH4 = { fg = colors.pink, bold = true, },
