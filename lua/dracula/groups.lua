@@ -279,6 +279,7 @@ local function setup(configs)
       markdownCodeBlock = { fg = colors.orange, },
       markdownCodeDelimiter = { fg = colors.red, },
       markdownH1 = { fg = colors.pink, bold = true, },
+      highlight(0, "@text.title.1.markdown", { link = "markdownH2" })
       -- markdownH2 = { fg = colors.pink, bold = true, },
       markdownH2 = { fg = colors.emerald, bold = true, },
       -- markdownH3 = { fg = colors.pink, bold = true, },
