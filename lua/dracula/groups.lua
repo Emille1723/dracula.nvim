@@ -23,11 +23,16 @@
 ---@variable.member ctermbg integer Sets background of cterm color |highlight-ctermbg|
 ---@variable.member cterm table cterm attribute map, like |highlight-args|.
 
----@alias HighlightGroups table<string, Highlight>
+----@alias HighlightGroups table<string, Highlight>
+
+----setup highlight groups
+----@param configs DraculaConfig
+----@return HighlightGroups
+----@nodiscardd
 
 ---setup highlight groups
----@param configs DraculaConfig
----@return HighlightGroups
+---@param configs DefaultConfig
+---@return table<string, Highlight>
 ---@nodiscard
 local function setup(configs)
    local colors = configs.colors
