@@ -12,6 +12,7 @@ return {
    red = "#FF5555",
    orange = "#FFB86C",
    yellow = "#F1FA8C",
+   nightfly_yellow = "#FFC102",
    green = "#50fa7b",
    green1 = "#58EFC6",
    green13 = "#3eecb4",
