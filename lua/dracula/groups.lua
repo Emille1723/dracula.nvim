@@ -356,11 +356,11 @@ local function setup(configs)
       -- Git Signs
       GitSignsAdd = { fg = colors.bright_green, },
       -- GitSignsChange = { fg = colors.cyan, }, -- default
-      GitSignsChange = { fg = "#FFC102", },
+      GitSignsChange = { fg = nightfly_yellow, },
       GitSignsDelete = { fg = colors.bright_red, },
       GitSignsAddLn = { fg = colors.black, bg = colors.bright_green, },
       -- GitSignsChangeLn = { fg = colors.black, bg = colors.cyan, }, -- default
-      GitSignsChangeLn = { fg = colors.black, bg = "#FFC102", },
+      GitSignsChangeLn = { fg = colors.black, bg = nightfly_yellow, },
       GitSignsDeleteLn = { fg = colors.black, bg = colors.bright_red, },
       GitSignsCurrentLineBlame = { fg = colors.white, },
 
