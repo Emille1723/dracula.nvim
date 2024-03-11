@@ -117,7 +117,8 @@ local function setup(configs)
       -- LineNr = { fg = "#b4b4b4", },
       -- LineNr = { fg = "#a1a1a1", bold = true },
       -- LineNr = { fg = "#A5B6CF", bold = true }, -- current default
-      LineNr = { fg = "#7f849c", bold = true }, -- new default
+      -- LineNr = { fg = "#7f849c", bold = true }, -- cool alt
+      LineNr = { fg = "#bec0d3", bold = true }, -- new default
       -- LineNr = { fg = "#959595", },
       -- LineNr = { fg = colors.blue, },
       -- LineNr = { fg = "#898989", },
