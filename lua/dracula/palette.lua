@@ -39,6 +39,7 @@ return {
    steel_blue = "#4b6479",
    ash_blue = "#acb4c2",
    gray_blue = "#7c8f8f",
+   gray = "#6272a4",
    malibu = "#87bcff",
    turquoise = "#7fdbca",
    purple1 = "#ae81ff",
