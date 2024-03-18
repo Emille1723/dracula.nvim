@@ -116,12 +116,13 @@ local function setup(configs)
       -- LineNr = { fg = "#aaaaaa", },
       -- LineNr = { fg = "#b4b4b4", },
       -- LineNr = { fg = "#a1a1a1", bold = true },
-      -- LineNr = { fg = "#A5B6CF", bold = true }, -- current default
+      -- LineNr = { fg = "#A5B6CF", bold = true }, -- fallback default
       -- LineNr = { fg = "#7f849c", bold = true }, -- cool alt
       -- LineNr = { fg = "#7F849C", bold = true }, -- cool alt 1
       -- LineNr = { fg = "#737481", bold = true }, -- not bad
-      LineNr = { fg = "#83838f", bold = true },
-      -- LineNr = { fg = "#bec0d3", bold = true }, -- new default
+      -- LineNr = { fg = "#83838f", bold = true }, -- very nice
+      LineNr = { fg = "#92939d", bold = true },
+      -- LineNr = { fg = "#bec0d3", bold = true }, -- new fallback default
       -- LineNr = { fg = "#959595", },
       -- LineNr = { fg = colors.blue, },
       -- LineNr = { fg = "#898989", },
