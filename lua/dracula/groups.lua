@@ -122,7 +122,7 @@ local function setup(configs)
       -- LineNr = { fg = "#737481", bold = true }, -- not bad
       -- LineNr = { fg = "#83838f", bold = true }, -- very nice
       -- LineNr = { fg = "#92939d", bold = true }, -- really good
-      LineNr = { fg = "#a2a2ab", bold = true },
+      LineNr = { fg = "#a2a2ab", bold = true }, -- new default
       -- LineNr = { fg = "#bec0d3", bold = true }, -- new fallback default
       -- LineNr = { fg = "#959595", },
       -- LineNr = { fg = colors.blue, },
