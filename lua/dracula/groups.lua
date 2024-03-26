@@ -107,7 +107,8 @@ local function setup(configs)
 
       ErrorMsg = { fg = colors.bright_red, },
       -- VertSplit = { fg = colors.black, }, -- my default
-      VertSplit = { fg = "#45475A", },
+      -- VertSplit = { fg = "#45475A", },
+      VertSplit = { fg = "#313244", },
       Folded = { fg = colors.comment, },
       FoldColumn = {},
       Search = { fg = colors.black, bg = colors.orange, },
