@@ -106,7 +106,8 @@ local function setup(configs)
       DiffText = { fg = colors.comment, },
 
       ErrorMsg = { fg = colors.bright_red, },
-      VertSplit = { fg = colors.black, },
+      -- VertSplit = { fg = colors.black, }, -- my default
+      VertSplit = { fg = "#5A4563", },
       Folded = { fg = colors.comment, },
       FoldColumn = {},
       Search = { fg = colors.black, bg = colors.orange, },
