@@ -494,7 +494,8 @@ local function setup(configs)
       -- DiagnosticInfo = { fg = colors.cyan, }, -- theme deafult
       -- DiagnosticInfo = { fg = colors.green13, }, -- my default
       -- DiagnosticInfo = { fg = "#89E051", }, -- my new default
-      DiagnosticInfo = { fg = "#8EC076", },
+      -- DiagnosticInfo = { fg = "#8EC076", },
+      DiagnosticInfo = { fg = "#5EF1FF" },
       -- DiagnosticInfo = { fg = "#BAE38E", },
       -- DiagnosticInfo = { fg = "#18C874", }, -- experimental
       DiagnosticHint = { fg = colors.cyan, },
