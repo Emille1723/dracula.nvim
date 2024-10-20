@@ -365,6 +365,7 @@ local function setup(configs)
 
       -- Git Signs
       GitSignsAdd = { fg = colors.bright_green, },
+      GitSignsAddCul = { fg = colors.bright_green, bg = colors.cursor },
       -- GitSignsChange = { fg = colors.cyan, }, -- default
       GitSignsChange = { fg = colors.nightfly_yellow, },
       GitSignsDelete = { fg = colors.bright_red, },
